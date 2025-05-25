@@ -1,0 +1,15 @@
+{
+  "data_paths": {
+    "futures_data_dir": "path/to/your/futures/data",
+    "options_data_dir": "path/to/your/options/data", 
+    "trend_file": "path/to/your/trend/file.csv",
+    "output_dir": "path/to/output/directory",
+    "options_expiry_data_dir": "path/to/options/expiry/data"
+  },
+  "parameters": {
+    "risk_free_rate": 0.02,
+    "batch_size": 500,
+    "hv_window": 10,
+    "iv_rank_window_days": 365
+  }
+}
